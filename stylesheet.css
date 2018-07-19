@@ -1,0 +1,50 @@
+body{
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./image/background.jpg);
+  font-family: sans-serif;
+}
+
+@media screen and (min-width:600px){
+  .wrapper{
+    padding: 28vh 33vw;
+  }
+
+  .wrapper img{
+    display:block;
+    margin: auto;
+    width:34vw;
+  }
+
+  .sentences{
+    margin: auto;
+    width:33vw;
+    padding:7vh 0;
+    text-align: left;
+    color: #3E3E3E;
+    font-size:16px;
+    letter-spacing: 0.12em;
+  }
+}
+
+@media screen and (max-width:600px){
+  .wrapper{
+    padding: 28vh 0;
+  }
+
+  .wrapper img{
+    display:block;
+    margin: auto;
+    width:198px;
+  }
+
+  .sentences{
+    margin: auto;
+    width:198px;
+    padding:7vh 0;
+    text-align: left;
+    color: #3E3E3E;
+    font-size:12px;
+    letter-spacing: 0.1em;
+  }
+}
